@@ -40,6 +40,8 @@ AUTH_USER_MODEL = 'base.User'
 
 LOGIN_REDIRECT_URL = '/logado'
 LOGOUT_REDIRECT_URL = '/'
+LOGIN_URL = '/usuario/login/'
+# this will be used when an unauthenticated user tries to access a view where login is required
 
 # Application definition
 
